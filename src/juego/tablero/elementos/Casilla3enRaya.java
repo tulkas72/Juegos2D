@@ -11,8 +11,8 @@ public class Casilla3enRaya<T> implements Casilla
     @Override
     public void setContenido(Object contenido)
     {
-        if(contenido instanceof String)
-            contenido=(String)
+        if(contenido instanceof T)
+            contenido=(T);
     }
 
     @Override
